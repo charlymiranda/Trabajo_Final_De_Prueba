@@ -4,13 +4,13 @@ public class Persona {
     private String nombre;
     private String apellido;
     private String email;
-    private int dni;
+    private String dni;
 
 
     public Persona() {
     }
 
-    public Persona(String nombre, String apellido, String email, int dni) {
+    public Persona(String nombre, String apellido, String email, String dni) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.email = email;
@@ -41,11 +41,11 @@ public class Persona {
         this.email = email;
     }
 
-    public int getDni() {
+    public String getDni() {
         return dni;
     }
 
-    public void setDni(int dni) {
+    public void setDni(String dni) {
         this.dni = dni;
     }
 
